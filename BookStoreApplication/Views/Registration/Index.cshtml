@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Registration </h2>
+<div ng-controller="registrationCntr">
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    @*<input type="submit" value="Add Student" ng-click="AddNewStudent()" />*@
+    <div id="dvAddRegistration" ng-show="dvRegistration">
+
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card card-primary card-outline">
+                    <div class="card-header">
+                        <h5 class="m-0">Registration Here </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Enter Email</label>
+                                    <input type="text" id="txtEmail" ng-model="registration.Email" class="form-control alphabet" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" id="txtPassword" ng-model="registration.Password" class="form-control alphabet" placeholder="Password" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" id="txtName" ng-model="registration.Name" class="form-control alphabet" placeholder="Name" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Mobile</label>
+                                    <input type="text" id="txtmobile" ng-model="registration.Mobile" class="form-control number" placeholder="Mobile NO" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="text" id="txtAddress" ng-model="registration.Address" class="form-control alphabet" placeholder="Address" />
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="form-group">
+                                    <button type="button" value="Submit" ng-click="AddUser(registration)" style="margin-top:30px" class="btn btn-primary pull-right">Register</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--<div class="card-header">
+                        <h5 class="m-0">Bank Details </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-4">-->
+                    <!-- text input -->
+                    <!--<div class="form-group">
+                            <label>Bank Name</label>
+                            <input type="text" id="txtBankName" ng-model="registration.BankName" class="form-control alphabet" placeholder="Bank Name" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4">-->
+                    <!-- text input -->
+                    <!--<div class="form-group">
+                            <label>Account Holder Name</label>
+                            <input type="password" id="txtAHName" ng-model="registration.AccountHolderName" class="form-control alphabet" placeholder="Account Holder Name" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4">-->
+                    <!-- text input -->
+                    <!--<div class="form-group">
+                            <label>Account No</label>
+                            <input type="text" id="txtAccountNo" ng-model="registration.AccountNo" class="form-control alphabet" placeholder="Account No" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4">-->
+                    <!-- text input -->
+                    <!--<div class="form-group">
+                                    <label>IFCS CODE</label>
+                                    <input type="text" id="txtIfcsCode" ng-model="registration.IfcsCode" class="form-control alphabet" placeholder="IFCS CODE" />
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <div class="form-group">
+                                    <button type="button" value="Submit" ng-click="AddUser(registration)" style="margin-top:30px" class="btn btn-primary pull-right">Register</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+@*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="~/BootStrap/jquery-3.5.1.js"></script>
+    <link href="~/BootStrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/BootStrap/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="~/BootStrap/dataTables.bootstrap.min.js"></script>*@
+
+<script src="~/scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/modernizr-2.6.2.js"></script>
+<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+@*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />*@
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="~/scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+@*<link href="~/Content/LoaderStyle.css" rel="stylesheet" />*@
+<!-- Theme style -->
+
+
+

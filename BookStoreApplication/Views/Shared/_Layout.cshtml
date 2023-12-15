@@ -1,0 +1,251 @@
+﻿<html ng-app="BookApp" >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Angular Js with MVC Demo</title>
+
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link href="~/Content/jquery-ui.css" rel="stylesheet" />
+    @*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @*<link href="~/Content/LoaderStyle.css" rel="stylesheet" />*@
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    @*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">*@
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Images/ipr32.png">
+    @*Angular liabrary and js used in Application*@
+    <script src="~/AngularScricpt/angular.min.js"></script>
+    <script src="~/AngularScricpt/BookModel.js"></script>
+    <script src="~/AngularScricpt/BookService.js"></script>
+    <script src="~/AngularScricpt/Bookcontroller.js"></script>
+    <script src="~/AngularScricpt/Registrationcontroller.js"></script>
+    <script src="~/AngularScricpt/RegistrationService.js"></script>
+    <script src="~/AngularScricpt/Usercontroller.js"></script>
+    <script src="~/AngularScricpt/UserService.js"></script>
+    <script src="~/AngularScricpt/Logincontroller.js"></script>
+    <script src="~/AngularScricpt/LoginService.js"></script>
+    <script src="~/AngularScricpt/ViewBookcontroller.js"></script>
+    <script src="~/AngularScricpt/ViewBookService.js"></script>
+    <script src="~/AngularScricpt/SearchBookController.js"></script>
+    <script src="~/AngularScricpt/SearchBookService.js"></script>
+    <script src="~/AngularScricpt/Ordercontroller.js"></script>
+    <script src="~/AngularScricpt/OrderBookService.js"></script>
+    <script>
+        var rootUrl = '@Url.Content("~")';
+    </script>
+    <style>
+        body {
+        }
+
+        .nav-menu {
+            font-size: 1.5rem !important;
+        }
+    </style>
+</head>
+
+    <body class="hold-transition sidebar-mini" style="height: auto; min-height: 100%;">
+        @*<div id="divLoader" style="display:none;"> <img src="~/Images/download.png" alt="Loader" /> </div>*@
+
+        @*<div class="loading" style="display:none;">
+            <span>Loading...</span>
+        </div>*@
+        <div class="wrapper" style="height: auto; min-height: 100%;">
+            
+            <!-- Main Sidebar Container -->
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="#" class="brand-link">
+                    <span class="brand-text" style="font-size: 1.5rem !important">Book Store Application</span>
+                   
+
+                </a>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Sidebar user panel (optional) -->
+                    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                        @*<div class="image">
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        </div>*@
+                        <div class="info">
+                            <a href="#" style="font-size: 1.5rem !important" class="d-block">@Session["Name"]</a>
+                        </div>
+                    </div>
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                            <li class="nav-item">
+                                <a href="@Url.Action("Index", "Home")" id="das" class="nav-link nav-menu active">
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                                    <p> Home</p>
+                                </a>
+                            </li>
+                            @if (Session["Name"] == null)
+                            {
+
+
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "Login")" id="fi" class="nav-link nav-menu">
+                                        <i class="nav-icon fas fa-edit"></i>
+                                        <p>Login</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "Registration")" class="nav-link nav-menu">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Registration</p>
+                                    </a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "Book")" class="nav-link nav-menu">
+                                        <i class="fas fa-download nav-icon"></i>
+                                        <p>Add Book </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "ViewBook")" class="nav-link nav-menu">
+                                        <i class="fas fa-thumbs-up nav-icon"></i>
+                                        <p>View Book </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "SearchBook")" class="nav-link nav-menu">
+                                        <i class="nav-icon fas fa-file-export"></i>
+                                        <p>Search Book</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "ViewOrder")" class="nav-link nav-menu">
+                                        <i class="nav-icon fas fa-file-export"></i>
+                                        <p>View Order</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "Logout")" class="nav-link nav-menu">
+                                        <i class="fas fa-download nav-icon"></i>
+                                        <p>Logout</p>
+                                    </a>
+                                </li>
+                            }
+                            @if (Session["IsAdmin"] != null)
+                            {
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Index", "User")" class="nav-link nav-menu">
+                                        <i class="fas fa-users nav-icon"></i>
+                                        <p>Manage User</p>
+                                    </a>
+                                </li>
+                            }
+
+                            @*<li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>
+                    Simple Link
+                    <span class="right badge badge-danger">New</span>
+                </p>
+            </a>
+        </li>*@
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                @*<div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0 text-dark">Starter Page</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">Starter Page</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>*@
+                <!-- /.content-header -->
+                <!-- Main content -->
+                <!-- ./wrapper -->
+                <!-- REQUIRED SCRIPTS -->
+                <!-- jQuery -->
+                <script src="plugins/jquery/jquery.min.js"></script>
+                <!-- Bootstrap 4 -->
+                <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <script src="plugins/datatables/jquery.dataTables.js"></script>
+                <script src="~/scripts/jquery-ui-1.12.1.min.js"></script>
+                <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+                <!-- AdminLTE App -->
+                <script src="dist/js/adminlte.min.js"></script>
+                <script src="~/Scripts/dataTables.checkboxes.min.js"></script>
+                <script src="plugins/toastr/toastr.min.js"></script>
+                <script src="plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+                @RenderBody()
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+                <div class="p-3">
+                    <h5>Title</h5>
+                    <p>Sidebar content</p>
+                </div>
+            </aside>
+            <!-- /.control-sidebar -->
+            <!-- Main Footer -->
+            <footer class="main-footer">
+                <!-- To the right -->
+                <div class="float-right d-none d-sm-inline">
+
+                </div>
+                <!-- Default to the left -->
+                <strong>Copyright &copy; 2021-2022 <a href="#"></a>.</strong> All rights reserved.
+            </footer>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#tblbook').DataTable({
+                    "pagingType": "full_numbers"
+                });
+                $('#tblUser').DataTable();
+                $('#tblviewbooks').DataTable();
+                $('#dvViewBookDetails').DataTable();
+                
+
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        <style>
+            input .ng-touched.ng-invalid {
+                background-color: red;
+            }
+
+            input .ng-touched.ng-valid {
+                background-color: green;
+            }
+        </style>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

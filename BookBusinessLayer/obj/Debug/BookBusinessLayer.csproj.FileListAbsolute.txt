@@ -1,0 +1,45 @@
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.dll
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.pdb
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.dll
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.pdb
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csprojAssemblyReference.cache
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CopyComplete
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.dll
+C:\Users\sriha\source\repos\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csprojAssemblyReference.cache
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CoreCompileInputs.cache
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CopyComplete
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.pdb
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.dll
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.pdb
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.dll
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.pdb
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csprojAssemblyReference.cache
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CopyComplete
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.dll
+C:\Users\sriha\Downloads\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.pdb
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csprojAssemblyReference.cache
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CoreCompileInputs.cache
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CopyComplete
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.dll
+E:\Project\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.pdb
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.dll
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookBusinessLayer.pdb
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.dll
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\bin\Debug\BookDAL.pdb
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.csproj.CopyComplete
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.dll
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookBusinessLayer\obj\Debug\BookBusinessLayer.pdb

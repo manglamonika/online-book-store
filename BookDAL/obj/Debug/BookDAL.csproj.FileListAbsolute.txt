@@ -1,0 +1,12 @@
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\bin\Debug\BookDAL.dll
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\bin\Debug\BookDAL.pdb
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\obj\Debug\BookDAL.csproj.CoreCompileInputs.cache
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\obj\Debug\BookDAL.dll
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\obj\Debug\BookDAL.pdb
+C:\Users\sriha\source\repos\BookStoreApplication\BookDAL\obj\Debug\BookDAL.csprojAssemblyReference.cache
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\bin\Debug\BookDAL.dll
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\bin\Debug\BookDAL.pdb
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\obj\Debug\BookDAL.csproj.AssemblyReference.cache
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\obj\Debug\BookDAL.csproj.CoreCompileInputs.cache
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\obj\Debug\BookDAL.dll
+C:\Users\MANGLA-PC\Downloads\BookStoreApplication_Final (1)\BookStoreApplication_3\BookStoreApplication_3\BookStoreApplication\BookDAL\obj\Debug\BookDAL.pdb
